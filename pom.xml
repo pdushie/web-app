@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>7.0.2-SNAPSHOT</version>
+	<version>7.0.3-SNAPSHOT</version>
 	
 	<name>maven-web-application</name>
 
@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://44.201.234.107:9000/</sonar.host.url>
+		<sonar.host.url>http://44.202.153.237:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>JOMACS Releases Nexus Repository</name>
-	      <url>http://54.209.92.226:8081/repository/gtp-app-release/</url>
+	      <url>http://54.161.99.150:8081/repository/gtp-app-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>JOMACS Snapshot Nexus Repository </name>
-	      <url>http://54.209.92.226:8081/repository/gtb-app-snapshots/</url>
+	      <url>http://54.161.99.150:8081/repository/gtb-app-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
